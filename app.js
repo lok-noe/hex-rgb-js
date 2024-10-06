@@ -1,4 +1,4 @@
-import "./style.css";
+import "./css/style.css";
 import * as looe from "./looeLib.js";
 
 const textRGBElement = document.querySelector("#color-rgb");
