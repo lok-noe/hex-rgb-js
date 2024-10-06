@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <main class="flex-container">
+      <div class="form" id="form">
+        <div class="rgb">
+          <label for="colorRGB">RGB</label>
+          <input type="text" id="color-rgb" />
+        </div>
+        <div class="buttons">
+          <button id="button-right">
+            <i class="bi bi-arrow-right-circle arrow-right"></i>
+          </button>
+          <button id="button-left">
+            <i class="bi bi-arrow-left-circle arrow-left"></i>
+          </button>
+        </div>
+        <div class="hex">
+          <label for="colorHex">HEX</label>
+          <input type="text" id="color-hex" />
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

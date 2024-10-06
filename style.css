@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 1rem;
+}
+
+.buttons button {
+  width: 3rem;
+  height: 3rem;
+}
+
+.rgb,
+.hex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Inter, sans-serif;
+}
+
+.hex input,
+.rgb input {
+  width: 10rem;
+  height: 2rem;
+  margin-left: 1rem;
+  font-family: Inter, sans-serif;
+  font-size: 1.5rem;
+}
+
+.arrow-left,
+.arrow-right {
+  font-size: 2rem;
+}
